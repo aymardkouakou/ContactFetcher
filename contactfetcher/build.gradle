@@ -48,9 +48,9 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.android.support:appcompat-v7:' + project.supportVersion
-    implementation 'io.reactivex.rxjava2:rxandroid:2.1.0'
-    implementation 'io.reactivex.rxjava2:rxjava:2.2.4'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.20'
 }
 
 if (project.rootProject.file('credentials.properties').exists()) {
